@@ -41,4 +41,8 @@ public class KHGMainClass extends JavaPlugin {
 	public void onLoad() {
 		
 	}
+	
+	public void foo() {
+		System.out.println("LOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOL");
+	}
 }
