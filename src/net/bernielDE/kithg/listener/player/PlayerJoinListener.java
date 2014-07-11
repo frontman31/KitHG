@@ -1,5 +1,7 @@
 package net.bernielDE.kithg.listener.player;
 
-public class PlayerJoinListener {
+import org.bukkit.event.Listener;
+
+public class PlayerJoinListener implements Listener {
 
 }
