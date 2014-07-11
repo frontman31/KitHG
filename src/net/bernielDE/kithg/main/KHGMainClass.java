@@ -18,4 +18,12 @@ public class KHGMainClass {
 	public int getI() {
 		return i;
 	}
+	
+	class LOL {
+		private final String LOL = "LOL";
+		
+		public String getLOL() {
+			return LOL;
+		}
+	}
 }
