@@ -1,29 +1,44 @@
-/**
- * 
- */
 package net.bernielDE.kithg.main;
 
+import java.util.HashMap;
+
+import org.bukkit.plugin.java.JavaPlugin;
+
+import net.bernielDE.kithg.kit.KitType;
+
 /**
- * @author frontman31
+ * @author frontman31, thedaniel99m
  * @version 0.1
  * 
  * @creation 11.07.2014 at 19:58:02
  * @class KHGMainClass.java in @package net.bernielDE.kithg.main in @project KitHG
+ * 
+ * TODO:
+ * frontman31: die anderen 50%, Inventory, Utilstuff
+ * thedaniel99m: MapBegrenzung, Listener(50%), Kit(50%)
  **/
 
-public class KHGMainClass {
+public class KHGMainClass extends JavaPlugin {
 	
-	private int i = 1;
+	public HashMap<String, KitType> kit = new HashMap<>();
 	
-	public int getI() {
-		return i;
+	private static KHGMainClass instance;
+	
+	public KHGMainClass() {
+		super();
+		instance = this;
 	}
 	
-	class LOL {
-		private final String LOL = "LOL";
+	public static KHGMainClass instance() {
+		return instance;
+	}
+	
+	@Override
+	public void onEnable() {
+	}
+	
+	@Override
+	public void onLoad() {
 		
-		public String getLOL() {
-			return LOL;
-		}
 	}
 }
