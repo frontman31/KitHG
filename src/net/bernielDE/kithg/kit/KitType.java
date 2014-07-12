@@ -2,7 +2,8 @@ package net.bernielDE.kithg.kit;
 
 public enum KitType {
 
-  CRAFTER("Crafter"),BARBAR("Barbar"); 
+  CRAFTER("Crafter"), 
+  BARBAR("Barbar"); 
 	
 	private String name;
 	
